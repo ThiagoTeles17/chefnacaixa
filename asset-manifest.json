@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/chefnacaixa/static/css/main.019292ba.css",
+    "main.js": "/chefnacaixa/static/js/main.85a21604.js",
+    "static/js/453.acfc61bb.chunk.js": "/chefnacaixa/static/js/453.acfc61bb.chunk.js",
+    "static/media/risottofunghi.jpg": "/chefnacaixa/static/media/risottofunghi.5a023b369ff9a3e2abc0.jpg",
+    "static/media/logo.png": "/chefnacaixa/static/media/logo.270652f7be66f6bda48c.png",
+    "static/media/logo.svg": "/chefnacaixa/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/chefnacaixa/index.html",
+    "main.019292ba.css.map": "/chefnacaixa/static/css/main.019292ba.css.map",
+    "main.85a21604.js.map": "/chefnacaixa/static/js/main.85a21604.js.map",
+    "453.acfc61bb.chunk.js.map": "/chefnacaixa/static/js/453.acfc61bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.019292ba.css",
+    "static/js/main.85a21604.js"
+  ]
+}
