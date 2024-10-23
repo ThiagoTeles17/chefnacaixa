@@ -59,7 +59,7 @@ export const Header = () => {
             
             {!isMobile ?
             <>
-            <img onClick={() => navigateTo()} className={styles.logo} alt='Logotipo Chef na Caixa' src={logo}/> 
+            
             <div className={styles.optionsContainer}>
 
                 <Link onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}  to="/" className={styles.option}>

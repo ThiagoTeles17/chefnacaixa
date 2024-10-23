@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.leftBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 100vh;
+    background-color: #f9ddb6;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 2rem;
+}
+.rightBar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 100vh;
+    background-color: #f9ddb6;;
+}
+.logo{
+    width: 100px;
+
+}

@@ -1,14 +1,15 @@
 .headerContainer{
     position: sticky;
     top: 0;
-    background-color: white;
-    width: calc(100vw - (100vw - 100%));
+    left: 10%;
+    background-color: #fbebdc;
+    width: 80vw;
     height: auto;
     padding: 1rem 2rem 1rem 2rem;
     display: flex;
     gap: 2rem;
     z-index: 9;
-    justify-content: space-around;
+    justify-content: center;
 }
 .optionsContainer{
     display: flex;

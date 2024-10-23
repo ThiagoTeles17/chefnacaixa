@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    height: 100vh;
 }
 #titulo{
     animation-name: leftToRight;
     animation-duration: 1s;
-    margin-top: 5rem;
     text-align: center;
 }
 #chefSpan{
-    color: #bd8f5b;
+    color: #a16016;
 }
 .receitasContainer{
     display: flex;
@@ -40,15 +41,25 @@
     width: 16rem;
     height: 10.2rem;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    >div>img{
+        width: 100%;
+    }
 }
 .receitaContainer:hover{
     >div>img{
         transform: scale(1.3);
         transform-origin: 50% 50%; 
     }
-    -webkit-box-shadow: 0px 0px 71px -9px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 71px -9px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 71px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 32px -6px rgba(0,0,0,0.75);
+    .buyButton{
+        background-color: #ffbd2d;
+        color: white;
+    }
 }
 .receitaImage{
     width: 100%;
@@ -64,6 +75,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: rgb(48, 48, 48);
+}
+.titleBackground{
+    background-color: #f9ddb6;
+    padding: 2rem;
+    border-radius: 50rem;
+    margin-top: 5rem;
 }
 @keyframes leftToRight {
     from{transform: translateX(-11px);}
@@ -72,4 +90,27 @@
 @keyframes scale {
     from{transform: scale(.95);}
     to{transform: scale(1);}
+}
+.logo{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 150px;
+}
+.buyButton{
+    background-color: #ff780a;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 12px;
+    transition: .2s ease;
+    transform-origin: 50% 50%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#boxIconBtn{
+    font-size: 18px;
 }
