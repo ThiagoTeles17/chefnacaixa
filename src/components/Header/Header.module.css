@@ -1,0 +1,79 @@
+.headerContainer{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: calc(100vw - (100vw - 100%));
+    height: auto;
+    padding: 1rem 2rem 1rem 2rem;
+    display: flex;
+    gap: 2rem;
+    z-index: 9;
+    justify-content: space-around;
+}
+.optionsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem
+}
+.option{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    color: #bd8f5b;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+}
+.option:hover{
+    color: #f5c79c;
+}
+.logo{
+    width: 7rem;
+}
+.sideBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 15rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .1rem;
+    -webkit-box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px -18px rgba(0,0,0,0.75);
+    transition: .3s ease-in-out;
+}
+.sideBarClosed{
+    transition: .3s ease-in-out;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    overflow-x: hidden;
+}
+.optionSideBar{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    background-color: #ffab4b;
+    z-index: 10;
+}
+.optionSideBar:hover{
+    background-color: #9b754a;
+}

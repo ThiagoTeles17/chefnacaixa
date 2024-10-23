@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titulo{
+    animation-name: upToBottom;
+    animation-duration: 1s;
+    transform: translateY(0);
+}
+#subtitulo{
+    animation-name: bottomToUp;
+    animation-duration: 3s;
+    transform: translateY(0);
+}
+.btnOne{
+    background-color: #f3e354;
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 22px;
+    transition: .2s ease;
+    transform-origin: 50% 50%;
+}
+.btnOne:hover{
+    -webkit-box-shadow: 0px 0px 34px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 34px -18px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 34px -18px rgba(0,0,0,0.75);
+    font-size: 24px;
+}
+.boxThreeContainer{
+    width: calc(100vw - ((100vw - 100%)));
+    height: 40rem;
+}
+@keyframes upToBottom {
+    from {transform: translateY(-15px);}
+    to {transform: translateY(0px);}
+}
+@keyframes bottomToUp {
+    from {transform: translateY(10px);}
+    to {transform: translateY(0px);}
+}
